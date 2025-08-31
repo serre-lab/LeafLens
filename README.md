@@ -1,26 +1,36 @@
 <h1 align="center">
-  <img src="https://github.com/serre-lab/LeafLens/blob/main/logo.jpg" width=42px> Leaf Lens
+  <img src="https://github.com/serre-lab/LeafLens/blob/main/logo.png" width=42px> Leaf Lens
 </h1>
 
-
 <p align="center">
-  Ivan Felipe Rodriguez🌿, Thomas Fel🌿, Gaurav Gaonkar, Peter Wilf & Thomas Serre <br>
+  Ivan Felipe Rodriguez<sup>1🌿</sup>,
+  Thomas Fel<sup>2🌿</sup>,
+  Gaurav Gaonkar<sup>1</sup>,
+  Peter Wilf<sup>3</sup>,
+  Thomas Serre<sup>1</sup>
 </p>
 
-<p align="center">
-  🌿 Joint First Authors <br>
-  1 Brown University · 2 Kempner Institute, Harvard University · 3 Pennsylvania State University
+<p align="left">
+  🌿 Joint First Authors
+  <br>
+  <sup>1</sup> Brown University
+  <br>
+  <sup>2</sup> Kempner Institute, Harvard University
+  <br>
+  <sup>3</sup> Pennsylvania State University
 </p>
 
+
+
 <p align="center">
-  <b><a href="https://serre-lab.github.io/LeafLens">Visit the website </a></b>
+  <a href="https://serre-lab.github.io/Leaf-Lens">Visit the website</a>
 </p>
 
 <h1 align="center">
   <img src="https://github.com/serre-lab/LeafLens/blob/main/little_dico.jpg" width=400px>
 </h1>
 
----
+
 
 ## Overview
 
