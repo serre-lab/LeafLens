@@ -1,17 +1,19 @@
 <h1 align="center">
-  <img src="https://fel-thomas.github.io/Leaf-Lens/assets/leaflens.png" width=42px> Leaf Lens
+  <img src="https://github.com/serre-lab/LeafLens/blob/main/logo.jpg" width=42px> Leaf Lens
 </h1>
 
+
 <p align="center">
-  Ivan Felipe Rodriguez, Thomas Fel, Gaurav Gaonkar, Peter Wilf, Thomas Serre
+  Ivan Felipe Rodriguez🌿, Thomas Fel🌿, Gaurav Gaonkar, Peter Wilf & Thomas Serre <br>
 </p>
 
 <p align="center">
-  Brown University · Kempner Institute, Harvard University · Pennsylvania State University
+  🌿 Joint First Authors <br>
+  1 Brown University · 2 Kempner Institute, Harvard University · 3 Pennsylvania State University
 </p>
 
 <p align="center">
-  <a href="https://fel-thomas.github.io/Leaf-Lens/">Visit the website</a>
+  <b><a href="https://serre-lab.github.io/LeafLens">Visit the website </a></b>
 </p>
 
 <h1 align="center">
@@ -27,7 +29,6 @@ It investigates how deep neural networks learn and organize concepts for the cla
 
 The site acts as a lens into the model’s representational space: abstract internal features are rendered as visual concepts, activation maps, and class-level structures. This allows both a critical examination of the model’s decision process and a new perspective on the relationship between morphology and taxonomy.
 
----
 
 ## Goals
 
@@ -35,7 +36,6 @@ The site acts as a lens into the model’s representational space: abstract inte
 - Relate computational representations to established biological taxonomy
 - Provide interactive access to fossil data and model explanations
 
----
 
 ## Features
 
@@ -44,13 +44,11 @@ The site acts as a lens into the model’s representational space: abstract inte
 - Concept pages presenting feature visualizations, top activating examples, and their taxonomic relevance
 - Comparisons between real fossils and high-fidelity synthetic fossils used for generative augmentation
 
----
 
 ## Broader Significance
 
 Leaf Lens exemplifies how explainable artificial intelligence can be applied in scientific domains. By exposing the internal geometry of deep representations, it connects machine-learned features with biological structure. Beyond the Florissant Formation, the approach opens large fossil collections to systematic analysis, offering tools to uncover diagnostic features that have remained inaccessible to manual inspection.
 
----
 
 ## Citation
 
