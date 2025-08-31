@@ -20,14 +20,19 @@
   <sup>3</sup> Pennsylvania State University
 </p>
 
-
-
 <p align="center">
-  <a href="https://serre-lab.github.io/Leaf-Lens">Visit the website</a>
+  <a href="https://serre-lab.github.io/Leaf-Lens">
+    <img src="https://img.shields.io/badge/Visit-Leaf%20Lens-2e7d32?style=for-the-badge&logo=leaflet&logoColor=white">
+  </a>
 </p>
 
+<p align="center">
+  Explore fossil classification, concepts, and model interpretability.
+</p>
+
+
 <h1 align="center">
-  <img src="https://github.com/serre-lab/LeafLens/blob/main/little_dico.jpg" width=400px>
+  <img src="https://github.com/serre-lab/LeafLens/blob/main/little_dico.jpg" width=800px>
 </h1>
 
 
