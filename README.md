@@ -7,14 +7,14 @@
   Thomas Fel<sup>1,2🌿</sup>,
   Gaurav Gaonkar<sup>1</sup>,
   Mohit Vaishnav<sup>1</sup>,
-  Herbert Meyer<sup>3</sup>,
-  Peter Wilf<sup>4*</sup>,
-  Thomas Serre<sup>1*</sup>
+  Herbert Meyer<sup>3</sup>, <br>
+  Peter Wilf<sup>4 🍂</sup>,
+  Thomas Serre<sup>1 🍂</sup>
 </p>
 
 <p align="left">
-  🌿 Joint First Authors
-  * Corresponding Authors
+  🌿 Joint First Authors <br>
+  🍂 Corresponding Authors
   <br>
   <sup>1</sup> Department of Cognitive, Linguistic and Psychological Sciences, Brown University
   <br>
