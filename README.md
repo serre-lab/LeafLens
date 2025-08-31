@@ -4,21 +4,28 @@
 
 <p align="center">
   Ivan Felipe Rodriguez<sup>1🌿</sup>,
-  Thomas Fel<sup>2🌿</sup>,
+  Thomas Fel<sup>1,2🌿</sup>,
   Gaurav Gaonkar<sup>1</sup>,
-  Peter Wilf<sup>3</sup>,
-  Thomas Serre<sup>1</sup>
+  Mohit Vaishnav<sup>1</sup>,
+  Herbert Meyer<sup>3</sup>,
+  Peter Wilf<sup>4*</sup>,
+  Thomas Serre<sup>1*</sup>
 </p>
 
 <p align="left">
   🌿 Joint First Authors
+  * Corresponding Authors
   <br>
-  <sup>1</sup> Brown University
+  <sup>1</sup> Department of Cognitive, Linguistic and Psychological Sciences, Brown University
   <br>
   <sup>2</sup> Kempner Institute, Harvard University
   <br>
-  <sup>3</sup> Pennsylvania State University
+  <sup>3</sup> Florissant Fossil Beds National Monument, National Park Service
+  <br>
+  <sup>4</sup> Department of Geosciences, Pennsylvania State University
 </p>
+
+
 
 <p align="center">
   <a href="https://serre-lab.github.io/Leaf-Lens">
