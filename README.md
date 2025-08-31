@@ -28,7 +28,7 @@
 
 
 <p align="center">
-  <a href="https://serre-lab.github.io/Leaf-Lens">
+  <a href="https://serre-lab.github.io/LeafLens/">
     <img src="https://img.shields.io/badge/Visit-Leaf%20Lens-2e7d32?style=for-the-badge&logo=leaflet&logoColor=white">
   </a>
 </p>
