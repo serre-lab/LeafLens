@@ -72,6 +72,7 @@ If you make use of Leaf Lens in your research, please cite:
 @article{rodriguez2025fossils,
   title   = {Decoding Fossil Floras with Artificial Intelligence:
              An application to the Florissant Formation},
-  author  = {Rodriguez, Ivan Felipe and Fel, Thomas and Gaonkar, Gaurav and  Wilf, Peter and Serre, Thomas},
+  author  = {Rodriguez, Ivan Felipe and Fel, Thomas and Gaonkar, Gaurav and
+             Vaishnav, Mohit and Meyer, Herbert and Wilf, Peter and Serre, Thomas},
   year    = {2025}
 }
