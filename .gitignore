@@ -1,0 +1,15 @@
+docs/classes/*.md
+docs/concepts/*.md
+assets.pptx
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+*.ipynb_checkpoints
+*.swp
+.idea/

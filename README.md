@@ -45,10 +45,11 @@
 
 ## Overview
 
-Leaf Lens is the companion platform to our study *Decoding Fossil Floras with Artificial Intelligence: An application to the Florissant Formation (2025)*.
-It investigates how deep neural networks learn and organize concepts for the classification of fossil and extant leaves across more than 150 families.
+*Leaf Lens* is the companion platform to our study *Decoding Fossil Floras with Artificial Intelligence: An application to the Florissant Formation (2025)*.
+It explores how deep neural networks learn and structure concepts when classifying fossil and modern leaves at the level of the angiosperm family.
 
-The site acts as a lens into the model’s representational space: abstract internal features are rendered as visual concepts, activation maps, and class-level structures. This allows both a critical examination of the model’s decision process and a new perspective on the relationship between morphology and taxonomy.
+The models are trained on the [Extant and Fossil Leaves dataset](https://phytokeys.pensoft.net/article/72350/list/9/) introduced by [Wilf et al.](https://www.geosc.psu.edu/directory/peter-wilf), a comprehensive, curated collection of cleared, x-rayed, and fossil leaf images spanning more than 150 angiosperm families.
+Using Explainable AI methods, *Leaf Lens* examines how internal representations—initially opaque feature spaces—crystallize into visual concepts, activation maps, and taxonomic structures that echo botanical organization.
 
 
 ## Goals
@@ -83,3 +84,18 @@ If you make use of Leaf Lens in your research, please cite:
              Vaishnav, Mohit and Meyer, Herbert and Wilf, Peter and Serre, Thomas},
   year    = {2025}
 }
+```
+
+This work also makes use of the following dataset:
+
+```latex
+@article{wilf2021leaves,
+  title   = {An image dataset of cleared, x-rayed, and fossil leaves vetted to plant family for human and machine learning},
+  author  = {Wilf, Peter and Wing, Scott L. and Meyer, Herbert W. and Rose, Jacob A. and Saha, Rohit and Serre, Thomas and Cúneo, N. Rubén and Donovan, Michael P. and Erwin, Diane M. and Gandolfo, Maria A. and Gonzalez-Akre, Erika and Herrera, Fabiany and Hu, Shusheng and Iglesias, Ari and Johnson, Kirk R. and Karim, Talia S. and Zou, Xiaoyu},
+  journal = {phytokeys},
+  volume  = {187},
+  pages   = {93--128},
+  year    = {2021},
+  doi     = {10.3897/phytokeys.187.72350}
+}
+```
