@@ -8,15 +8,15 @@
   Gaurav Gaonkar<sup>1</sup>,
   Mohit Vaishnav<sup>1</sup>,
   Herbert Meyer<sup>3</sup>, <br>
-  Peter Wilf<sup>4 🍂</sup>,
-  Thomas Serre<sup>1 🍂</sup>
+  Peter Wilf<sup>4</sup>,
+  Thomas Serre<sup>1🍂</sup>
 </p>
 
 <p align="left">
-  🌿 Joint First Authors <br>
-  🍂 Corresponding Authors
+  🌿 Joint first authors <br>
+  🍂 Corresponding author
   <br>
-  <sup>1</sup> Department of Cognitive, Linguistic and Psychological Sciences, Brown University
+  <sup>1</sup> Center for Computational Brain Science, Brown University
   <br>
   <sup>2</sup> Kempner Institute, Harvard University
   <br>
@@ -45,54 +45,72 @@
 
 ## Overview
 
-*Leaf Lens* is the companion platform to our study *Decoding Fossil Floras with Artificial Intelligence: An application to the Florissant Formation (2025)*.
-It explores how deep neural networks learn and structure concepts when classifying fossil and modern leaves at the level of the angiosperm family.
+**Leaf Lens** is the companion platform to our study *"Decoding Fossil Leaves with Artificial Intelligence: An application to the Florissant Formation"*. This website provides an interactive exploration of how deep neural networks learn to classify fossil angiosperm leaves—one of paleobotany's most persistent challenges.
 
-The models are trained on the [Extant and Fossil Leaves dataset](https://phytokeys.pensoft.net/article/72350/list/9/) introduced by [Wilf et al.](https://www.geosc.psu.edu/directory/peter-wilf), a comprehensive, curated collection of cleared, x-rayed, and fossil leaf images spanning more than 150 angiosperm families.
-Using Explainable AI methods, *Leaf Lens* examines how internal representations—initially opaque feature spaces—crystallize into visual concepts, activation maps, and taxonomic structures that echo botanical organization.
+Our deep learning framework overcomes data scarcity by augmenting sparse fossil data with synthetic examples and aligning extant and fossil leaf domains through representational learning. We demonstrate this approach on the late Eocene **Florissant flora of Colorado**, achieving **well over 90% accuracy** for family-level classification across **142 dicot angiosperm families**—compared to a chance level of just 3.5%.
 
 
-## Goals
+## Project goals
 
-- Clarify which morphological features guide neural classification of leaves
-- Relate computational representations to established biological taxonomy
-- Provide interactive access to fossil data and model explanations
+Our primary objective is to leverage Explainable AI techniques to understand the **concepts that matter most** for neural networks when classifying leaves. By revealing these concepts, we aim to provide:
 
+- **Insights into the model's decision-making process,** identifying the key features used for classification
+- A deeper understanding of the relationships between **biological taxonomy and computational representations**
+- **Visual and interactive tools** for exploring how concepts and families are structured within the learned representations
+
+Our system addresses a fundamental challenge: the extreme scarcity of taxonomically vetted fossil specimens. While modern leaf specimens are abundant, fossilization processes—compression, mineralization, fragmentation—create a challenging domain shift between living and fossil forms.
+
+
+## Key highlights
+
+- **Number of families:** 142 dicot angiosperm families
+- **Total dataset:** Over 34,000 images (extant and fossil leaves)
+- **Florissant fossils:** 3,200 taxonomically vetted specimens spanning 23 families
+- **Classification performance:** Well over 90% top-5 accuracy (chance: 3.5%)
+- **Discovered concepts:** 2,000+ unique visual concepts extracted via sparse dictionary learning
 
 ## Features
 
 - Interactive visualizations of over 2,000 learned concepts and their relations in embedding space
-- Class-level exploration of 150+ plant families with representative samples and explanatory maps
+- Family-level exploration of 142 dicot families with representative samples and explanatory maps
 - Concept pages presenting feature visualizations, top activating examples, and their taxonomic relevance
 - Comparisons between real fossils and high-fidelity synthetic fossils used for generative augmentation
 
 
-## Broader Significance
+## Broader implications
 
-Leaf Lens exemplifies how explainable artificial intelligence can be applied in scientific domains. By exposing the internal geometry of deep representations, it connects machine-learned features with biological structure. Beyond the Florissant Formation, the approach opens large fossil collections to systematic analysis, offering tools to uncover diagnostic features that have remained inaccessible to manual inspection.
+This research advances one of paleobotany's central challenges—accurate identification of fossil angiosperm leaves—and demonstrates how state-of-the-art AI can be applied to scientific domains with limited training data. Using concept-based interpretability methods, our system surfaces botanically meaningful cues by visually summarizing subtle morphological features that define families across fossil and extant specimens, suggesting new diagnostic characters.
+
+Beyond the Florissant Formation, this cross-domain strategy is readily generalizable to other fossil deposits, positioning this approach for broad use in understanding the evolution and ecological dynamics of ancient terrestrial ecosystems.
 
 
-## Citation
+## Funding and acknowledgments
+
+This material is based upon work supported by the U.S. **National Science Foundation** under Award No. **EAR-1925481** (T.S.) and **EAR-1925755** (P.W.), and by **ANR-3IA Artificial and Natural Intelligence Toulouse Institute** (**ANR-19-PI3A-0004**).
+
+Computing support was provided by the Center for Computation and Visualization (CCV) at Brown University (via NIH Office of the Director grant S10OD025181). We also acknowledge Google's Cloud TPU hardware resources via the TensorFlow Research Cloud (TFRC) program.
+
+## Citations
 
 If you make use of Leaf Lens in your research, please cite:
 
-```latex
+```bibtex
 @article{rodriguez2025fossils,
-  title   = {Decoding Fossil Floras with Artificial Intelligence:
-             An application to the Florissant Formation},
-  author  = {Rodriguez, Ivan Felipe and Fel, Thomas and Gaonkar, Gaurav and
-             Vaishnav, Mohit and Meyer, Herbert and Wilf, Peter and Serre, Thomas},
-  year    = {2025}
+  title  = {Decoding Fossil Leaves with Artificial Intelligence:
+            An application to the Florissant Formation},
+  author = {Rodriguez, Ivan Felipe and Fel, Thomas and Gaonkar, Gaurav and
+            Vaishnav, Mohit and Meyer, Herbert and Wilf, Peter and Serre, Thomas},
+  year   = {2025}
 }
 ```
 
 This work also makes use of the following dataset:
 
-```latex
+```bibtex
 @article{wilf2021leaves,
   title   = {An image dataset of cleared, x-rayed, and fossil leaves vetted to plant family for human and machine learning},
   author  = {Wilf, Peter and Wing, Scott L. and Meyer, Herbert W. and Rose, Jacob A. and Saha, Rohit and Serre, Thomas and Cúneo, N. Rubén and Donovan, Michael P. and Erwin, Diane M. and Gandolfo, Maria A. and Gonzalez-Akre, Erika and Herrera, Fabiany and Hu, Shusheng and Iglesias, Ari and Johnson, Kirk R. and Karim, Talia S. and Zou, Xiaoyu},
-  journal = {phytokeys},
+  journal = {PhytoKeys},
   volume  = {187},
   pages   = {93--128},
   year    = {2021},
