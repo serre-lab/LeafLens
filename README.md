@@ -13,13 +13,13 @@
 </p>
 
 <p align="center">
-  <a href="https://serre.lab.brown.edu/"><img src="https://github.com/serre-lab/LeafLens/blob/main/assets/brown.png?raw=true" height="30"></a>
+  <a href="https://serre.lab.brown.edu/"><img src="https://github.com/serre-lab/LeafLens/blob/gh-pages/assets/brown.png?raw=true" height="30"></a>
   &nbsp;&nbsp;
-  <a href="https://kempnerinstitute.harvard.edu/"><img src="https://github.com/serre-lab/LeafLens/blob/main/assets/harvard.png?raw=true" height="30"></a>
+  <a href="https://kempnerinstitute.harvard.edu/"><img src="https://github.com/serre-lab/LeafLens/blob/gh-pages/assets/harvard.png?raw=true" height="30"></a>
   &nbsp;&nbsp;
-  <a href="https://www.nps.gov/flfo/index.htm"><img src="https://github.com/serre-lab/LeafLens/blob/main/assets/nps.png?raw=true" height="30"></a>
+  <a href="https://www.nps.gov/flfo/index.htm"><img src="https://github.com/serre-lab/LeafLens/blob/gh-pages/assets/nps.png?raw=true" height="30"></a>
   &nbsp;&nbsp;
-  <a href="https://www.upenn.edu/"><img src="https://github.com/serre-lab/LeafLens/blob/main/assets/penn.png?raw=true" height="30"></a>
+  <a href="https://www.upenn.edu/"><img src="https://github.com/serre-lab/LeafLens/blob/gh-pages/assets/penn.png?raw=true" height="30"></a>
 </p>
 
 <p align="left">
