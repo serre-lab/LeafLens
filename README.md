@@ -12,10 +12,17 @@
   Thomas Serre<sup>1🍂</sup>
 </p>
 
+<p align="center">
+  <a href="https://serre.lab.brown.edu/"><img src="https://github.com/serre-lab/LeafLens/blob/main/assets/brown.png?raw=true" height="30"></a>
+  &nbsp;&nbsp;
+  <a href="https://kempnerinstitute.harvard.edu/"><img src="https://github.com/serre-lab/LeafLens/blob/main/assets/harvard.png?raw=true" height="30"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.nps.gov/flfo/index.htm"><img src="https://github.com/serre-lab/LeafLens/blob/main/assets/nps.png?raw=true" height="30"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.upenn.edu/"><img src="https://github.com/serre-lab/LeafLens/blob/main/assets/penn.png?raw=true" height="30"></a>
+</p>
+
 <p align="left">
-  🌿 Joint first authors <br>
-  🍂 Corresponding author
-  <br>
   <sup>1</sup> Center for Computational Brain Science, Brown University
   <br>
   <sup>2</sup> Kempner Institute, Harvard University
@@ -23,6 +30,8 @@
   <sup>3</sup> Florissant Fossil Beds National Monument, National Park Service
   <br>
   <sup>4</sup> Department of Geosciences, Pennsylvania State University
+  <br><br>
+  🌿 Joint first authors&nbsp;&nbsp;|&nbsp;&nbsp;🍂 Corresponding author
 </p>
 
 
