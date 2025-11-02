@@ -629,6 +629,7 @@ span.important {
     width: auto;
     height: 30px !important;
     margin-top: -5px;
+    margin-right: 8px;
     transform: translate(0px, 13px);
 }
 
