@@ -103,22 +103,34 @@ Computing support was provided by the Center for Computation and Visualization (
 
 If you make use of Leaf Lens in your research, please cite:
 
+**Main paper:**
+
+Rodriguez, I.F., Fel, T., Gaonkar, G., Vaishnav, M., Meyer, H., Wilf, P., & Serre, T. (2025). Decoding Fossil Leaves with Artificial Intelligence: An application to the Florissant Formation.
+
 ```bibtex
 @article{rodriguez2025fossils,
-  title  = {Decoding Fossil Leaves with Artificial Intelligence:
+  title  = {Decoding Fossil Leaves with Artificial Intelligence: 
             An application to the Florissant Formation},
-  author = {Rodriguez, Ivan Felipe and Fel, Thomas and Gaonkar, Gaurav and
+  author = {Rodriguez, Ivan Felipe and Fel, Thomas and Gaonkar, Gaurav and 
             Vaishnav, Mohit and Meyer, Herbert and Wilf, Peter and Serre, Thomas},
   year   = {2025}
 }
 ```
 
-This work also makes use of the following dataset:
+**Dataset:**
+
+Wilf, P., Wing, S.L., Meyer, H.W., Rose, J.A., Saha, R., Serre, T., Cúneo, N.R., Donovan, M.P., Erwin, D.M., Gandolfo, M.A., Gonzalez-Akre, E., Herrera, F., Hu, S., Iglesias, A., Johnson, K.R., Karim, T.S., & Zou, X. (2021). An image dataset of cleared, x-rayed, and fossil leaves vetted to plant family for human and machine learning. *PhytoKeys*, 187, 93–128. https://doi.org/10.3897/phytokeys.187.72350
 
 ```bibtex
 @article{wilf2021leaves,
-  title   = {An image dataset of cleared, x-rayed, and fossil leaves vetted to plant family for human and machine learning},
-  author  = {Wilf, Peter and Wing, Scott L. and Meyer, Herbert W. and Rose, Jacob A. and Saha, Rohit and Serre, Thomas and Cúneo, N. Rubén and Donovan, Michael P. and Erwin, Diane M. and Gandolfo, Maria A. and Gonzalez-Akre, Erika and Herrera, Fabiany and Hu, Shusheng and Iglesias, Ari and Johnson, Kirk R. and Karim, Talia S. and Zou, Xiaoyu},
+  title   = {An image dataset of cleared, x-rayed, and fossil leaves vetted 
+             to plant family for human and machine learning},
+  author  = {Wilf, Peter and Wing, Scott L. and Meyer, Herbert W. and 
+             Rose, Jacob A. and Saha, Rohit and Serre, Thomas and 
+             Cúneo, N. Rubén and Donovan, Michael P. and Erwin, Diane M. and 
+             Gandolfo, Maria A. and Gonzalez-Akre, Erika and Herrera, Fabiany and 
+             Hu, Shusheng and Iglesias, Ari and Johnson, Kirk R. and 
+             Karim, Talia S. and Zou, Xiaoyu},
   journal = {PhytoKeys},
   volume  = {187},
   pages   = {93--128},
