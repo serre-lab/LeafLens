@@ -40,10 +40,14 @@
   <a href="https://serre-lab.github.io/LeafLens/">
     <img src="https://img.shields.io/badge/Visit-Leaf%20Lens-2e7d32?style=for-the-badge&logo=leaflet&logoColor=white">
   </a>
+  &nbsp;&nbsp;
+  <a href="https://serre-lab.github.io/FossilLeafLens/">
+    <img src="https://img.shields.io/badge/Visit-Fossil%20Leaf%20Lens-5e4a2e?style=for-the-badge&logo=microscope&logoColor=white">
+  </a>
 </p>
 
 <p align="center">
-  Explore fossil classification, concepts, and model interpretability.
+  Explore concepts and family classification | Identify unknown fossils
 </p>
 
 
