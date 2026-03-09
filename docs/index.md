@@ -57,75 +57,39 @@
 
 </div>
 
-##  Investigating Concept Learning in Leaf Classification with Deep Neural Networks
+## Explore Leaf Lens
 
-Welcome to our scientific investigation into how deep neural networks learn and utilize concepts to classify leaves into over 150 distinct families. This collaborative effort brings together researchers from various fields and explore using **Explainable AI (XAI)** the meaningful patterns found by trained neural net.
-
----
-
-## Project Goals
-
-*Leaf Lens* seeks to use Explainable AI techniques to uncover the concepts that guide neural networks when classifying fossil and modern angiosperm leaves at the level of the plant family.
-The models are trained on the [Extant and Fossil Leaves dataset](https://phytokeys.pensoft.net/article/72350/list/9/) introduced by [Wilf et al.](https://www.geosc.psu.edu/directory/peter-wilf) (2021, *PhytoKeys*), a comprehensive, curated collection of cleared, x-rayed, and fossil leaf images representing more than 150 angiosperm families.
-
-By tracing how these networks encode and organize visual information, we aim to:
-
-- Reveal the morphological and venation features most critical for classification.
-- Bridge biological taxonomy with the geometry of learned representation spaces.
-- Provide interactive tools to explore how neural concepts align with botanical structure and diversity.
-
-
-### Key Highlights
-- **Number of Classes:** 150+ leaf families
-- **Dataset Size:** Over 100,000 leaf samples
-- **Discovered Concepts:** 2,000+ unique concepts identified using concepts extraction methods
+!!! abstract "Get started"
+    *Leaf Lens* is the interactive companion to our study of how deep neural networks learn concepts for leaf classification. This page sends you straight into the visual exploration tools.
+    
+    For the complete scientific background—dataset details, model training, and fossil analyses—see the **main article** and the linked dataset paper below.
 
 ---
 
-## What This Website Offers
+### What you can do
 
-1. **Interactive UMAP Visualizations:**
-   - **2,000+ Concepts:** Explore how the network organizes learned concepts in a 2D UMAP projection. Each point represents a distinct concept, clustered based on similarity. Hover over clusters for details.
-   - **150+ Classes:** See how the leaf families relate to one another in the feature space through an interactive UMAP plot. Gain insights into class-level similarities and separations.
+| Action | Description |
+|--------|-------------|
+| **Explore concepts** | 2D maps showing how the network organizes leaf patterns in feature space |
+| **Browse families** | Class pages with representative leaves and the features that matter most |
+| **Inspect concepts** | Individual concept pages with example leaves that activate each pattern |
 
-   **Visualizations (interactive plots will be embedded here):**
-
-   **Concepts visualization:**
-   <canvas id="scatterDico"></canvas>
-
-   **Class visualization:**
-   <canvas id="scatterClass"></canvas>
-
-
-2. **Class-Specific Pages:**
-   - For each of the 150+ leaf families, a dedicated page includes:
-     - **Representative samples** from the dataset.
-     - **Concept visualizations** that highlight the features most critical for classifying leaves in this family.
-     - **Activation heatmaps** showing how the neural network processes these leaves.
-
-3. **Concept-Specific Pages:**
-   - Each of the 2,000+ discovered concepts has its own page, detailing:
-     - **Feature visualizations** representing the concept.
-     - The **top 10 leaf images** that activate the concept most strongly.
-     - **Insights into the concept's role** in classifying specific leaf families.
+!!! note "Extant leaves only"
+    The interactive UMAP visualizations on this page use **extant (modern) leaf images only**. Fossil leaves and their interpretation are covered in the main article and fossil-focused pages elsewhere on the site.
 
 ---
 
-## Navigating the Investigation
+### Visualizations
 
-- Begin with the **UMAP Visualizations** to explore the relationships between concepts and classes.
-- Dive deeper into **Class Pages** to learn about specific leaf families and the features the model uses to classify them.
-- Explore the **Concept Pages** for an in-depth look at the learned concepts and their biological or computational significance.
+**Family visualization**
+<canvas id="scatterClass"></canvas>
+
+**Concepts visualization**
+<canvas id="scatterDico"></canvas>
 
 ---
 
-## Broader Implications
-
-This research not only provides a detailed understanding of how deep learning models approach the task of leaf classification but also establishes a framework for applying Explainable AI to scientific domains. By uncovering the relationships between learned concepts and biological taxonomy, we hope to inspire future interdisciplinary investigations at the intersection of AI and science.
-
-We invite you to explore the findings, interact with the visualizations, and engage with this collaborative exploration into concept learning.
-
-## Citation
+### Citation
 
 If you make use of **Leaf Lens** in your research, please cite:
 
