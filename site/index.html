@@ -299,6 +299,42 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#project-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explore-the-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explore the site
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broader-implications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Broader implications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Citation
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -33436,6 +33472,42 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#project-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explore-the-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explore the site
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broader-implications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Broader implications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Citation
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -33454,10 +33526,10 @@
   
 
 
-<div class="container-title ll-hero">
-<div class="page-title ll-hero__intro">
+<div style="display: flex;" class="container-title">
+<div class="page-title" style="text-align:left; flex: 0 0 55%">
 
-  <h1 class="ll-hero__title"><span class="ll-hero__title-text">Leaf Lens</span></h1>
+  <h1 style="text-align: left; font-weight: bold; color: inherit; margin-bottom: 0.2em; font-size:4em"> <span style="letter-spacing: 3px;">Leaf Lens</span></h1>
   <span class="author" style="font-weight: bold; font-size:1em">
   <a href="https://scholar.google.com/citations?user=KotPiIMAAAAJ&hl=en">Ivan Felipe Rodriguez</a><sup>🌿 1</sup>,
   <a href="https://thomasfel.me/">Thomas Fel</a><sup>🌿 2</sup>,
@@ -33498,15 +33570,15 @@
   <br>
   <br>
 
-  <div class="button-style ll-hero__cta">
-    <a href="classes/Betulaceae/">Explore the site</a>
+  <div class="button-style">
+    <b><a href="classes/Betulaceae/"> 👋 Start exploring now » </a></b>
   </div>
 
 </div>
 
 
-<div class="flex-gif ll-hero__figure">
-  <div class="gif-intro ll-hero__figure-inner">
+<div class="flex-gif">
+  <div class="gif-intro" style="width: 300px; height: 300px;">
     <img class="pan-image" src="./assets/little_dico.jpg">
   </div>
 </div>
@@ -33514,80 +33586,81 @@
 </div>
 
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<div class="admonition abstract">
-<p class="admonition-title">Get started</p>
-<p><em>Leaf Lens</em> is <strong>one of three companion apps</strong> to <em>Advancing Paleobotany with AI-guided Expert Fossil Leaf Identification</em> (with the <a href="https://huggingface.co/spaces/Serrelab/fossil_app">Hugging Face Fossil App</a> and <a href="https://serre-lab.github.io/FossilLeafLens/">Fossil Leaf Lens</a>). This website provides an interactive exploration of how deep neural networks learn to classify fossil angiosperm leaves—one of paleobotany's most persistent challenges.</p>
-<p>For dataset details, model training, fossil analyses, and the rest of the scientific story, see the paper—<strong>arXiv</strong> <em>coming soon</em> (link will be added here). The dataset reference is under <strong>Citation</strong> below.</p>
-</div>
-<hr />
-<div class="overview-stats">
-<h3 class="overview-stats-heading">At a glance</h3>
-<div class="overview-stats-grid">
-<article class="stat-card"><div class="stat-card__value">142</div><div class="stat-card__label">dicot angiosperm families</div></article>
-<article class="stat-card"><div class="stat-card__value">34K+</div><div class="stat-card__label">images (extant &amp; fossil) in the open training set</div></article>
-<article class="stat-card"><div class="stat-card__value">3,200</div><div class="stat-card__label">Florissant fossils · 23 families · taxonomically vetted</div></article>
-<article class="stat-card"><div class="stat-card__value">90%+</div><div class="stat-card__label">top-5 accuracy <span class="stat-card__hint">(chance: 3.5%)</span></div></article>
-<article class="stat-card stat-card--wide"><div class="stat-card__value">2,000+</div><div class="stat-card__label">visual concepts from sparse dictionary learning</div></article>
-</div>
-<p class="overview-stats-source">Leaf images and labels: <a href="https://phytokeys.pensoft.net/article/72350/">Wilf et al., <em>PhytoKeys</em> (2021)</a>.</p>
-</div>
-
+<p><em>Leaf Lens</em> is one of three companion platforms for the study <em>Advancing Paleobotany with AI-guided Expert Fossil Leaf Identification</em>. This site focuses on <strong>explainability</strong>: how the network organizes <strong>concepts</strong> and <strong>families</strong> when classifying leaves, using cleared and x-rayed imagery so overlays stay easy to read.</p>
+<h3 id="companion-apps">Companion apps<a class="headerlink" href="#companion-apps" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong><a href="https://huggingface.co/spaces/Serrelab/fossil_app">Hugging Face Fossil App</a></strong> — run the same family-level model on <strong>your own</strong> fossil leaf images in the browser. Fossil training is currently dominated by Florissant; images from other sites are run through the model but predictions may be more variable.</p>
+</li>
+<li>
+<p><strong><a href="https://serre-lab.github.io/FossilLeafLens/">Fossil Leaf Lens</a></strong> — browse <strong>Predicted Fossil Identifications</strong> and per-specimen pages for Florissant fossils (catalog numbers, similar training images, and model concepts for each specimen).</p>
+</li>
+</ul>
+<p>Our deep learning framework mitigates data scarcity by augmenting sparse fossil data with synthetic examples and by aligning extant and fossil leaf domains through representational learning. In the main article, we apply this approach to the late Eocene Florissant flora of Colorado and report well over 90% accuracy for family-level classification across 142 dicot families, compared with a chance level of 3.5%.</p>
+<p>For dataset details, model training, fossil analyses, and the rest of the scientific story, see the paper—an <strong>arXiv</strong> preprint is <em>coming soon</em> (we will add the link here). The dataset is cited in the <strong>Citation</strong> section below.</p>
 <div class="admonition note">
-<p class="admonition-title">Extant leaves only</p>
-<p><strong>Leaf Lens</strong> is built exclusively from <strong>cleared and x-rayed</strong> leaf images. Fossil leaves differ sharply in contrast, breakage, matrix, and preservation, which would add a separate source of visual variation on top of the taxonomic signal we want to interpret. Cleared leaves and x-rays instead give comparable, high-contrast views of venation and blade outline—ideal for overlays, heatmaps, and concept crops—so explanations stay legible and comparable across families. In short, we narrowed the imagery to this subset so the explainability layer reads as clearly as possible: what the model is attending to reflects family-level morphology rather than preservation style.</p>
+<p class="admonition-title">Training data and Leaf Lens</p>
+<p>Our models are trained on the <a href="https://phytokeys.pensoft.net/article/72350/list/9/">Extant and Fossil Leaves dataset</a> introduced by <a href="https://www.geosc.psu.edu/directory/peter-wilf">Wilf et al.</a> (2021, <em>PhytoKeys</em>), a curated collection of cleared, x-rayed, and fossil leaf images spanning more than 150 angiosperm families. <strong>Leaf Lens</strong>, however, uses <strong>cleared and x-rayed</strong> images only. Fossil leaves differ sharply in contrast, breakage, matrix, and preservation, which would add variation unrelated to the taxonomic signal we aim to interpret.</p>
 </div>
 <hr />
-<h3 id="what-you-can-do">What you can do<a class="headerlink" href="#what-you-can-do" title="Permanent link">&para;</a></h3>
-<table class="ll-explore-table">
-<thead><tr><th scope="col">Action</th><th scope="col">Description</th></tr></thead>
+<h2 id="project-goals">Project goals<a class="headerlink" href="#project-goals" title="Permanent link">&para;</a></h2>
+<p>Our primary objective is to use explainable AI to characterize the concepts that matter most when neural networks classify leaves. By tracing how these networks encode and organize visual information, we aim to:</p>
+<ul>
+<li>Reveal how the model makes decisions and which features it relies on for classification.</li>
+<li>Clarify how biological taxonomy relates to structure in the learned representation space.</li>
+<li>Provide visual, interactive tools for exploring how concepts and families are organized in those representations.</li>
+</ul>
+<p>Our system addresses a fundamental challenge: the scarcity of taxonomically vetted fossil specimens. Modern leaf images are abundant, but fossilization—compression, mineralization, fragmentation—induces a difficult domain shift between living and fossil forms. By leveraging explainability methods, we surface internal visual “concepts” that highlight diagnostic patterns that are often hard for human observers to see.</p>
+<hr />
+<h2 id="explore-the-site">Explore the site<a class="headerlink" href="#explore-the-site" title="Permanent link">&para;</a></h2>
+<p>Use the <strong>navigation</strong> (sidebar) to open any <strong>family</strong> or <strong>concept</strong>, or start with the maps below.</p>
+<h3 id="interactive-maps-umap">Interactive maps (UMAP)<a class="headerlink" href="#interactive-maps-umap" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
 <tbody>
-<tr><td><strong>Explore concepts</strong></td><td>Interactive 2D maps showing how the network organizes leaf patterns in feature space</td></tr>
-<tr><td><strong>Browse families</strong></td><td>Class pages with representative leaves and the features that matter most</td></tr>
-<tr><td><strong>Inspect concepts</strong></td><td>Concept pages with example leaves that activate each pattern</td></tr>
+<tr>
+<td><strong>Families</strong></td>
+<td>142 families in 2D feature space—hover points for details.</td>
+</tr>
+<tr>
+<td><strong>Concepts</strong></td>
+<td>2000+ learned concepts—hover to see how patterns cluster.</td>
+</tr>
 </tbody>
 </table>
-
-<div class="ll-nav-guide">
-<h3 class="ll-nav-guide__title">Navigating the investigation</h3>
-<ol class="ll-nav-steps">
-<li class="ll-nav-steps__item"><span class="ll-nav-steps__badge" aria-hidden="true">1</span><div class="ll-nav-steps__content"><strong class="ll-nav-steps__head">UMAP maps</strong><span class="ll-nav-steps__text">Start with the visualizations below to see how <strong>concepts</strong> and <strong>families</strong> sit in feature space—hover points to explore.</span></div></li>
-<li class="ll-nav-steps__item"><span class="ll-nav-steps__badge" aria-hidden="true">2</span><div class="ll-nav-steps__content"><strong class="ll-nav-steps__head">Family pages</strong><span class="ll-nav-steps__text">Open any family from the site navigation for representative leaves, heatmaps, and what the model emphasizes for that lineage.</span></div></li>
-<li class="ll-nav-steps__item"><span class="ll-nav-steps__badge" aria-hidden="true">3</span><div class="ll-nav-steps__content"><strong class="ll-nav-steps__head">Concept pages</strong><span class="ll-nav-steps__text">Drill into individual concepts for top activating leaves and how each pattern ties to classification.</span></div></li>
-</ol>
-</div>
-
-<h3 id="visualizations">Visualizations<a class="headerlink" href="#visualizations" title="Permanent link">&para;</a></h3>
-<div class="viz-panel">
-<p class="viz-panel__title">Family visualization</p>
-<p class="viz-panel__lead">142 families: see how leaf families sit in feature space in this interactive UMAP. Hover points for details and compare family-level structure.</p>
+<div class="ll-explore-maps">
+<div class="ll-explore-panel">
+<p class="ll-explore-panel__label">Family UMAP</p>
 <canvas id="scatterClass"></canvas>
 </div>
-
-<div class="viz-panel">
-<p class="viz-panel__title">Concepts visualization</p>
-<p class="viz-panel__lead">2,000+ concepts: explore how learned concepts cluster in 2D; each point is a concept. Hover clusters to inspect patterns the model uses.</p>
+<div class="ll-explore-panel">
+<p class="ll-explore-panel__label">Concept UMAP</p>
 <canvas id="scatterDico"></canvas>
 </div>
-
-<hr />
-<div class="section section-beyond">
-<h3 class="section-beyond-title">Beyond this site</h3>
-<p class="section-beyond-lead">Two companion tools from the same project—run the model yourself or explore fossil-first views.</p>
-<div class="feature-card feature-card--hf">
-<h4 class="feature-card__title"><span class="feature-badge"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" width="20" height="20"></span> Use the tool</h4>
-<p class="feature-card__body">To run the deep learning model on your own fossil leaf images, use our <strong><a href="https://huggingface.co/spaces/Serrelab/fossil_app" target="_blank" rel="noopener">Hugging Face app</a></strong>. It is the interactive interface to the same model whose predictions we display on this website. Please note that the model's fossil training is, so far, only from Florissant, and images from other sites will be analyzed but will yield more variable results.</p>
-<p class="feature-card__cta"><a href="https://huggingface.co/spaces/Serrelab/fossil_app" target="_blank" rel="noopener">Open the Hugging Face app</a></p>
-</div>
-<div class="feature-card feature-card--fossil">
-<h4 class="feature-card__title"><span class="feature-badge"><img src="./assets/nps.png" alt="" width="20" height="20"></span> Fossil Leaf Lens</h4>
-<p class="feature-card__body"><strong><a href="https://serre-lab.github.io/FossilLeafLens/" target="_blank" rel="noopener">Fossil Leaf Lens</a></strong> is the companion site for family-level fossil leaf identification: browse predictions, similar specimens, and concept patterns for Florissant and related material. Use it alongside this site when you want fossil-focused exploration rather than extant-only concept maps.</p>
-<p class="feature-card__cta"><a href="https://serre-lab.github.io/FossilLeafLens/" target="_blank" rel="noopener">Go to Fossil Leaf Lens</a></p>
-</div>
 </div>
 
+<h3 id="family-class-pages">Family (class) pages<a class="headerlink" href="#family-class-pages" title="Permanent link">&para;</a></h3>
+<p>Per family: <strong>representative samples</strong>, <strong>concept visualizations</strong> (what matters for that family), and <strong>activation heatmaps</strong>.</p>
+<h3 id="concept-pages">Concept pages<a class="headerlink" href="#concept-pages" title="Permanent link">&para;</a></h3>
+<p>Per concept: <strong>feature visualizations</strong>, <strong>top 10</strong> images with strongest activation, and notes on each concept’s <strong>role</strong> in classification.</p>
+<h3 id="suggested-flow">Suggested flow<a class="headerlink" href="#suggested-flow" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Pan and hover the <strong>maps</strong> above.</li>
+<li>Open a <strong>family</strong> in the nav for specimen- and heatmap-level detail.</li>
+<li>Open a <strong>concept</strong> for the pattern-level view.</li>
+</ol>
 <hr />
-<h3 id="citation">Citation<a class="headerlink" href="#citation" title="Permanent link">&para;</a></h3>
-<p>If you use <strong>Leaf Lens</strong>, cite <em>Advancing Paleobotany with AI-guided Expert Fossil Leaf Identification</em> (arXiv <em>coming soon</em>) and the dataset when appropriate:</p>
+<h2 id="broader-implications">Broader implications<a class="headerlink" href="#broader-implications" title="Permanent link">&para;</a></h2>
+<p>Using concept-based interpretability, we surface botanically meaningful cues by visually summarizing subtle morphological features that define families across fossil and extant specimens—suggesting new diagnostic characters.</p>
+<p>We have applied our system to more than 1,700 previously unidentified Florissant fossils; expert paleobotanists report that many predictions are intriguing or plausible candidates for follow-up study.</p>
+<p>We invite you to explore the results, interact with the visualizations, and engage with this work on concept learning.</p>
+<h2 id="citation">Citation<a class="headerlink" href="#citation" title="Permanent link">&para;</a></h2>
+<p>If you use <strong>Leaf Lens</strong> in your research, please cite:</p>
 <div class="highlight"><pre><span></span><code>@article<span class="nb">{</span>rodriguez2025fossils,
   title   = <span class="nb">{</span>Advancing Paleobotany with AI-guided Expert Fossil Leaf Identification<span class="nb">}</span>,
   author  = <span class="nb">{</span>Rodriguez, Ivan Felipe and Fel, Thomas and Gaonkar, Gaurav and

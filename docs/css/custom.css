@@ -657,3 +657,32 @@ summary span {
 .pan-image {
     animation: panImage 100s linear infinite; /* Adjust duration and looping */
 }
+
+/* Explore the site — map panels */
+.ll-explore-maps {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    margin: 1.25rem 0 0.5rem;
+}
+
+.ll-explore-panel__label {
+    margin: 0 0 0.5rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--md-default-fg-color--lighter, #666);
+}
+
+.ll-explore-panel canvas {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+[data-md-color-scheme="slate"] .ll-explore-panel canvas {
+    border-color: rgba(255, 255, 255, 0.1);
+}
