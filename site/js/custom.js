@@ -1,0 +1,68 @@
+const translate_size = 140
+const carts = [...document.querySelectorAll('.feature-viz-intro .gallery-container-img')]
+
+carts.map(car => {
+    car.addEventListener("click", (event) => {
+        // show little crops
+        hidden_images = [...car.querySelectorAll(".hidden-images img")]
+        hidden_images.map((img, i) => {
+            theta = i * 2 * Math.PI / hidden_images.length
+            if (img.style.transform == `translate(0px, 0px)` || img.style.transform == `` || img.style.transform == `translate(0px)`) {
+                img.style.transform = `translate(${Math.cos(theta) * 140}px, ${Math.sin(theta) * 140}px)`
+                img.style.opacity = 1
+            } else {
+                img.style.transform = `translate(0px, 0px)`
+                img.style.opacity = 0
+            }
+            //console.log(img, theta)
+            //img.style.transform = `translate(${'{'}Math.cos(theta) * translate_size{'}'}px, ${'{'}Math.sin(theta) * translate_size{'}'}px)`
+        })
+        // if possible, show the most similar classes
+        let concept_id = car.id.split('-')[1]
+        // remove the previous selected
+        carts.map(c => {
+            if (c.id != car.id) {
+                // hide the little crops
+                hidden_images = [...c.querySelectorAll(".hidden-images img")]
+                hidden_images.map((img, i) => {
+                    img.style.transform = `translate(0px, 0px)`
+                    img.style.opacity = 0
+                })
+                // opacity on the other carts
+                c.style.opacity = 0.25
+            }
+        });
+
+    });
+})
+
+// on hover on some cart, hide the other little crops
+carts.map(car => {
+    car.addEventListener("mouseleave", (event) => {
+        carts.map(c => {
+            hidden_images = [...c.querySelectorAll(".hidden-images img")]
+            hidden_images.map((img, i) => {
+                img.style.transform = `translate(0px, 0px)`
+                img.style.opacity = 0
+            })
+            // put the original opacity
+            c.style.opacity = 1.0
+        });
+    });
+})
+
+
+const hide_image = () => {
+    let img = document.getElementById("img-tooltip");
+    let container = document.querySelector(".image-hover");
+
+    container.style.display = "none";
+}
+function go_random_class(){
+    let links = document.querySelectorAll('.md-nav.md-nav--primary .md-nav__item--nested .md-nav__item');
+    let random_index = Math.floor(Math.random() * links.length);
+    let random_link = links[random_index];
+    let anchor = random_link.querySelector('a');
+    let href = anchor.href;
+    window.location.href = href;
+}
