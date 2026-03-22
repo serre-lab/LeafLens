@@ -57,32 +57,32 @@
 
 </div>
 
-##  Investigating Concept Learning in Leaf Classification with Deep Neural Networks
+##  Overview
 
-Welcome to our scientific investigation into how deep neural networks learn and utilize concepts to classify leaves into over 150 distinct families. This collaborative effort brings together researchers from various fields and explore using **Explainable AI (XAI)** the meaningful patterns found by trained neural net.
+Leaf Lens is one of the three companion platform to our study "Advancing Paleobotany with AI-guided Expert Fossil Leaf Identification". This website provides an interactive exploration of how deep neural networks learn to classify fossil angiosperm leaves—one of paleobotany's most persistent challenges.
+
+Our deep learning framework overcomes data scarcity by augmenting sparse fossil data with synthetic examples and aligning extant and fossil leaf domains through representational learning. In the primary article we demonstrate this approach on the late Eocene Florissant flora of Colorado, achieving well over 90% accuracy for family-level classification across 142 dicot families—compared to a chance level of just 3.5%.
+
+For dataset details, model training, fossil analyses, and the rest of the scientific story, see the paper—arXiv coming soon (link will be added here). The dataset reference is under Citation below.
 
 ---
 
 ## Project Goals
 
-*Leaf Lens* seeks to use Explainable AI techniques to uncover the concepts that guide neural networks when classifying fossil and modern angiosperm leaves at the level of the plant family.
-The models are trained on the [Extant and Fossil Leaves dataset](https://phytokeys.pensoft.net/article/72350/list/9/) introduced by [Wilf et al.](https://www.geosc.psu.edu/directory/peter-wilf) (2021, *PhytoKeys*), a comprehensive, curated collection of cleared, x-rayed, and fossil leaf images representing more than 150 angiosperm families.
+Our primary objective is to leverage Explainable AI techniques to understand the concepts that matter most for neural networks when classifying leaves. By revealing these concepts, we aim to provide:
+
 
 By tracing how these networks encode and organize visual information, we aim to:
 
-- Reveal the morphological and venation features most critical for classification.
-- Bridge biological taxonomy with the geometry of learned representation spaces.
-- Provide interactive tools to explore how neural concepts align with botanical structure and diversity.
+- Insights into the model's decision-making process, identifying the key features used for classification.
+- A deeper understanding of the relationships between biological taxonomy and computational representations.
+- Visual and interactive tools for exploring how concepts and families are structured within the learned representations.
 
-
-### Key Highlights
-- **Number of Classes:** 150+ leaf families
-- **Dataset Size:** Over 100,000 leaf samples
-- **Discovered Concepts:** 2,000+ unique concepts identified using concepts extraction methods
+Our system addresses a fundamental challenge: the extreme scarcity of taxonomically vetted fossil specimens. While modern leaf specimens are abundant, fossilization processes—compression, mineralization, fragmentation—create a challenging domain shift between living and fossil forms. By leveraging explainability techniques, we identify internal visual "concepts" that reveal diagnostic patterns difficult for human observers to discern.
 
 ---
 
-## What This Website Offers
+## Explore the website
 
 1. **Interactive UMAP Visualizations:**
    - **2,000+ Concepts:** Explore how the network organizes learned concepts in a 2D UMAP projection. Each point represents a distinct concept, clustered based on similarity. Hover over clusters for details.
@@ -90,11 +90,11 @@ By tracing how these networks encode and organize visual information, we aim to:
 
    **Visualizations (interactive plots will be embedded here):**
 
+   **Family visualization:**
+   <canvas id="scatterClass"></canvas>
+
    **Concepts visualization:**
    <canvas id="scatterDico"></canvas>
-
-   **Class visualization:**
-   <canvas id="scatterClass"></canvas>
 
 
 2. **Class-Specific Pages:**
@@ -121,7 +121,9 @@ By tracing how these networks encode and organize visual information, we aim to:
 
 ## Broader Implications
 
-This research not only provides a detailed understanding of how deep learning models approach the task of leaf classification but also establishes a framework for applying Explainable AI to scientific domains. By uncovering the relationships between learned concepts and biological taxonomy, we hope to inspire future interdisciplinary investigations at the intersection of AI and science.
+Using concept-based interpretability methods, our system surfaces botanically meaningful cues by visually summarizing subtle morphological features that define families across fossil and extant specimens, suggesting new diagnostic characters.
+
+We have already applied our system to over 1,700 previously unidentified Florissant fossils, with expert paleobotanists finding a high proportion of the predictions to be intriguing or plausible candidates for detailed follow-up studies.
 
 We invite you to explore the findings, interact with the visualizations, and engage with this collaborative exploration into concept learning.
 
@@ -131,11 +133,11 @@ If you make use of **Leaf Lens** in your research, please cite:
 
 ```latex
 @article{rodriguez2025fossils,
-  title   = {Decoding Fossil Floras with Artificial Intelligence:
-             An application to the Florissant Formation},
+  title   = {Advancing Paleobotany with AI-guided Expert Fossil Leaf Identification},
   author  = {Rodriguez, Ivan Felipe and Fel, Thomas and Gaonkar, Gaurav and
              Vaishnav, Mohit and Meyer, Herbert and Wilf, Peter and Serre, Thomas},
   year    = {2025}
+  note    = {arXiv preprint: coming soon}
 }
 ```
 
