@@ -84,7 +84,7 @@ Our primary objective is to use explainable AI to characterize the concepts that
 - Clarify how biological taxonomy relates to structure in the learned representation space.
 - Provide visual, interactive tools for exploring how concepts and families are organized in those representations.
 
-Our system addresses a fundamental challenge: the scarcity of taxonomically vetted fossil specimens. Modern leaf images are abundant, but fossilization—compression, mineralization, fragmentation—induces a difficult domain shift between living and fossil forms. By leveraging explainability methods, we surface internal visual “concepts” that highlight diagnostic patterns that are often hard for human observers to see.
+By leveraging explainability methods, we surface internal visual “concepts” that highlight diagnostic patterns that are often hard for human observers to see.
 
 ---
 
@@ -130,7 +130,7 @@ Per concept: **feature visualizations**, **top 10** images with strongest activa
 
 Using concept-based interpretability, we surface botanically meaningful cues by visually summarizing subtle morphological features that define families across fossil and extant specimens—suggesting new diagnostic characters.
 
-We have applied our system to more than 1,700 previously unidentified Florissant fossils; expert paleobotanists report that many predictions are intriguing or plausible candidates for follow-up study.
+The study’s fossil deployment—**over 1,100** previously unidentified Florissant specimens, with experts flagging many predictions as intriguing or plausible for follow-up—is summarized and explored on [**Fossil Leaf Lens**](https://serre-lab.github.io/FossilLeafLens/). **Leaf Lens** (here) is the companion site for **concepts** and **families** on cleared/x-rayed imagery.
 
 We invite you to explore the results, interact with the visualizations, and engage with this work on concept learning.
 
