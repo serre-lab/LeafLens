@@ -33586,7 +33586,7 @@
 </div>
 
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p><em>Leaf Lens</em> is one of three companion platforms for the study <em>Advancing Paleobotany with AI-guided Expert Fossil Leaf Identification</em>. This site focuses on <strong>explainability</strong>: how the network organizes <strong>concepts</strong> and <strong>families</strong> when classifying leaves, using cleared and x-rayed imagery so overlays stay easy to read.</p>
+<p><em>Leaf Lens</em> is one of three companion platforms for the study <em>Advancing Paleobotany with AI-guided Expert Fossil Leaf Identification</em>.  This site focuses on <strong>explainability</strong> using extant leaves, showing how the network organizes <strong>concepts</strong> and <strong>families</strong> when classifying leaves using <strong>cleared and x-rayed</strong> specimens from the training dataset (Wilf et al. 2021, PhytoKeys).</p>
 <h3 id="companion-apps">Companion apps<a class="headerlink" href="#companion-apps" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
@@ -33600,17 +33600,18 @@
 <p>For dataset details, model training, fossil analyses, and the rest of the scientific story, see the paper—an <strong>arXiv</strong> preprint is <em>coming soon</em> (we will add the link here). The dataset is cited in the <strong>Citation</strong> section below.</p>
 <div class="admonition note">
 <p class="admonition-title">Training data and Leaf Lens</p>
-<p>Our models are trained on the <a href="https://phytokeys.pensoft.net/article/72350/list/9/">Extant and Fossil Leaves dataset</a> introduced by <a href="https://www.geosc.psu.edu/directory/peter-wilf">Wilf et al.</a> (2021, <em>PhytoKeys</em>), a curated collection of cleared, x-rayed, and fossil leaf images spanning more than 150 angiosperm families. <strong>Leaf Lens</strong>, however, uses <strong>cleared and x-rayed</strong> images only. Fossil leaves differ sharply in contrast, breakage, matrix, and preservation, which would add variation unrelated to the taxonomic signal we aim to interpret.</p>
+<p>Our models are trained on the <a href="https://doi.org/10.25452/figshare.plus.14980698">Extant and Fossil Leaves dataset</a> introduced by <a href="https://www.geosc.psu.edu/directory/peter-wilf">Wilf et al.</a> (2021, <em>PhytoKeys</em>), a curated collection of cleared, x-rayed, and fossil leaf images spanning more than 150 angiosperm families. <strong>Leaf Lens</strong>, however, uses <strong>cleared and x-rayed</strong> images only. Fossil leaves differ sharply in contrast, breakage, matrix, and preservation, which would add variation unrelated to thetaxonomic signal we explore here in Leaf Lens.
+</p>
 </div>
 <hr />
 <h2 id="project-goals">Project goals<a class="headerlink" href="#project-goals" title="Permanent link">&para;</a></h2>
-<p>Our primary objective is to use explainable AI to characterize the concepts that matter most when neural networks classify leaves. By tracing how these networks encode and organize visual information, we aim to:</p>
+<p>Our primary objective is to use explainable AI to characterize the concepts that matter most when neural networks classify dicot leaves to family.. By tracing how these networks encode and organize visual information, we aim to:</p>
 <ul>
 <li>Reveal how the model makes decisions and which features it relies on for classification.</li>
 <li>Clarify how biological taxonomy relates to structure in the learned representation space.</li>
 <li>Provide visual, interactive tools for exploring how concepts and families are organized in those representations.</li>
 </ul>
-<p>Our system addresses a fundamental challenge: the scarcity of taxonomically vetted fossil specimens. Modern leaf images are abundant, but fossilization—compression, mineralization, fragmentation—induces a difficult domain shift between living and fossil forms. By leveraging explainability methods, we surface internal visual “concepts” that highlight diagnostic patterns that are often hard for human observers to see.</p>
+<p>By leveraging explainability methods, we surface internal visual “concepts” that highlight diagnostic patterns that are often hard for human observers to see.</p>
 <hr />
 <h2 id="explore-the-site">Explore the site<a class="headerlink" href="#explore-the-site" title="Permanent link">&para;</a></h2>
 <p>Use the <strong>navigation</strong> (sidebar) to open any <strong>family</strong> or <strong>concept</strong>, or start with the maps below.</p>
@@ -33656,8 +33657,8 @@
 </ol>
 <hr />
 <h2 id="broader-implications">Broader implications<a class="headerlink" href="#broader-implications" title="Permanent link">&para;</a></h2>
-<p>Using concept-based interpretability, we surface botanically meaningful cues by visually summarizing subtle morphological features that define families across fossil and extant specimens—suggesting new diagnostic characters.</p>
-<p>We have applied our system to more than 1,700 previously unidentified Florissant fossils; expert paleobotanists report that many predictions are intriguing or plausible candidates for follow-up study.</p>
+<p>Using concept-based interpretability, we surface botanically meaningful cues by visually summarizing subtle morphological features that define families in the AI framework across fossil and extant specimens—suggesting new diagnostic characters. For botanists, it is important to note that the 1000s of revealed features in the concepts are generated entirely algorithmically from images, without any prior constraints from taxonomy or labeled features—thus providing a fascinating and entirely novel complement to traditional morphological studies expected to drive character discovery.</p>
+<p>The study’s fossil deployment—<strong>over 1,100</strong> previously unidentified Florissant specimens, with experts flagging many predictions as intriguing or plausible for follow-up—is summarized and explored on <a href="https://serre-lab.github.io/FossilLeafLens/"><strong>Fossil Leaf Lens</strong></a>. <strong>Leaf Lens</strong> (here) is the companion site for <strong>concepts</strong> and <strong>families</strong> on cleared/x-rayed imagery.</p>
 <p>We invite you to explore the results, interact with the visualizations, and engage with this work on concept learning.</p>
 <h2 id="citation">Citation<a class="headerlink" href="#citation" title="Permanent link">&para;</a></h2>
 <p>If you use <strong>Leaf Lens</strong> in your research, please cite:</p>
